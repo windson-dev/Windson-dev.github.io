@@ -2,11 +2,11 @@ body {
     background-color: #FFE4C4;
 }
 
-#name {
-    color: 	#4F4F4F;
+h3 {
+    font-size: 30px;
 }
 
-#phrase-style{
+.phrase-style{
     font-style: italic;
 }
 
@@ -30,12 +30,44 @@ body {
     font-size: 21px;
 }
 
-
 .sub-skill-style {
     background-color: #FA8072;
-    font-size: 23px;
+    font-size: 23px; 
 }
 
-h3 {
-    font-size: 30px;
+.infos {
+   padding: 10px;
+}
+
+.infos #sobre-mim {
+    height: 260px;
+}
+
+.infos #name {
+    color: 	#4F4F4F;
+    text-align: center;
+    height: 30px;
+}
+
+.infos #windson {
+    padding: 8px;
+    float: left;
+    background-color: blue;
+    height: 230px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.infos p {
+    top: 90px;
+    left: 30px;
+    position: relative;
+}
+ 
+.skill-style ul li:nth-child(odd) {
+    font-style: italic;
+}
+
+.sub-skill-style ul li:nth-child(odd) {
+    font-style: italic;
 }
